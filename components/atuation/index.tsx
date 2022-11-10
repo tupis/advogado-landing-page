@@ -5,6 +5,34 @@ interface Props {
   areas: object[];
 }
 
+const Areas = [
+  {
+    title: "Empresarial",
+    text: "",
+    icon: "",
+  },
+  {
+    title: "Trabalhista",
+    text: "",
+    icon: "",
+  },
+  {
+    title: "Cívil",
+    text: "",
+    icon: "",
+  },
+  {
+    title: "Médico",
+    text: "",
+    icon: "",
+  },
+  {
+    title: "Penal",
+    text: "",
+    icon: "",
+  },
+];
+
 const AtuationArea = ({ id, areas }: Props) => {
   return (
     <div
@@ -16,15 +44,9 @@ const AtuationArea = ({ id, areas }: Props) => {
           Áreas de Atuação
         </h1>
         <div className="flex flex-wrap justify-center items-center sm:container self-center">
-          <CardAtuation />
-          <CardAtuation />
-          <CardAtuation />
-          <CardAtuation />
-          <CardAtuation />
-          <CardAtuation />
-          <CardAtuation />
-          <CardAtuation />
-          <CardAtuation />
+          {Areas.map((area) => {
+            return <CardAtuation area={area} key={area.title} />;
+          })}
         </div>
       </div>
     </div>

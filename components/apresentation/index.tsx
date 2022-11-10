@@ -11,7 +11,7 @@ import {
   ImagePerson,
 } from "./style";
 import image from "../../assets/bg.jpg";
-import person from "../../assets/person.png";
+import person from "../../assets/carloscavaignacadv.png";
 
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -22,7 +22,7 @@ interface Props {
 const Apresentation = ({ id }: Props) => {
   return (
     <Container
-      className="flex justify-center items-center relative h-3/6 sm:h-3/4 lg:h-3/5 3xl:h-2/5"
+      className="flex justify-center items-center relative h-3/6 sm:h-3/4 lg:h-3/4 3xl:h-2/5"
       id={id}
     >
       <BackgroundTwoColors className="w-full h-full">
@@ -38,7 +38,7 @@ const Apresentation = ({ id }: Props) => {
           <Text className="mt-3 md:text-start text-center sm:text-md md:text-lg text-xl">
             Conte com{" "}
             <HighLightName className="text-textColor afert:bg-textColor">
-              Lucas Medeiros
+              Carlos Cavaignac
             </HighLightName>{" "}
             para Defender Seus Direitos!
           </Text>
@@ -48,7 +48,7 @@ const Apresentation = ({ id }: Props) => {
           </ButtonWhatsApp>
         </WrapperText>
         <ImagePerson
-          className="sm:w-6/12 mt-0 sm:block hidden"
+          className="sm:w-6/12 mt-0 sm:block hidden w-full h-full"
           src={person}
           alt="foto do advogado"
         />

@@ -31,14 +31,14 @@ const Footer = ({ social, contacts }: Props) => {
   return (
     <div className="flex flex-col justify-center items-center bg-black text-white p-4 w-full">
       <div className="container w-full h-full grid grid-cols-2 place-items-center m-auto">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-start">
           <h1 className="text-2xl">Contato</h1>
           <ul className="list-none">
             <li>Email</li>
             <li>Whatsapp</li>
           </ul>
         </div>
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-start">
           <h1 className="text-2xl">Redes Sociais</h1>
           <ul className="list-none">
             <li>Instagram</li>
