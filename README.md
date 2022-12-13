@@ -44,6 +44,8 @@ $ yarn dev
 
 ## 📚 Funcionalidades
 
+[x] Responsividade
+
 ## 🛠️ Construído com
 
 Principais tecnologia usada neste projeto
@@ -52,6 +54,7 @@ Principais tecnologia usada neste projeto
 - [React](https://pt-br.reactjs.org/docs/getting-started.html) - A biblioteca web usada
 - [Next](https://nextjs.org/docs) - Framework do React
 - [Styled Components](https://styled-components.com/docs) - Biblioteca de estilização de CSS no TypeScript
+- [Tailwind CSS](https://tailwindcss.com/docs/installation) - Framework do CSS que utiliza classes utilitárias
 
 ## 📄 Licença
 
