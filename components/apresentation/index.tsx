@@ -1,6 +1,5 @@
 import {
   Container,
-  BackgroundImage,
   BackgroundTwoColors,
   Text,
   Title,
@@ -10,8 +9,7 @@ import {
   ColorInsideBG,
   ImagePerson,
 } from "./style";
-import image from "../../assets/bg.jpg";
-import person from "../../assets/carloscavaignacadv.png";
+import person from "../../assets/person.png";
 
 import { FaWhatsapp } from "react-icons/fa";
 
@@ -38,7 +36,7 @@ const Apresentation = ({ id }: Props) => {
           <Text className="mt-3 md:text-start text-center sm:text-md md:text-lg text-xl">
             Conte com{" "}
             <HighLightName className="text-textColor afert:bg-textColor">
-              Carlos Cavaignac
+              Lucas Medeiros
             </HighLightName>{" "}
             para Defender Seus Direitos!
           </Text>
@@ -48,7 +46,7 @@ const Apresentation = ({ id }: Props) => {
           </ButtonWhatsApp>
         </WrapperText>
         <ImagePerson
-          className="sm:w-6/12 mt-0 sm:block hidden w-full h-full"
+          className="sm:w-6/12 mt-0 sm:block hidden w-full h-5/6"
           src={person}
           alt="foto do advogado"
         />
